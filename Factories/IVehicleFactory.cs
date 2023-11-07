@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace R504_TP01_Automobile.Factories
 {
-    public class VehicleFactory
+    public interface IVehicleFactory
     {
     }
 }
