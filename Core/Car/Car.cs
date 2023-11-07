@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace R504_TP01_Automobile.Core.Car
 {
-    public class Car
+    public abstract class Car
     {
     }
 }

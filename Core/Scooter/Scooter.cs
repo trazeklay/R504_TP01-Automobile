@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace R504_TP01_Automobile.Core.Scooter
 {
-    public class Scooter
+    public abstract class Scooter
     {
     }
 }
