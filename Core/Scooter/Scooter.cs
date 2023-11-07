@@ -8,5 +8,6 @@ namespace R504_TP01_Automobile.Core.Scooter
 {
     public abstract class Scooter
     {
+
     }
 }

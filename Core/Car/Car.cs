@@ -8,5 +8,6 @@ namespace R504_TP01_Automobile.Core.Car
 {
     public abstract class Car
     {
+        
     }
 }

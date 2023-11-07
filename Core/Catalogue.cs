@@ -1,4 +1,5 @@
-﻿using System;
+﻿using R504_TP01_Automobile.Factories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,8 @@ namespace R504_TP01_Automobile.Core
 {
     public class Catalogue
     {
+        public IVehicleFactory vehicleFactory;
+
+
     }
 }
