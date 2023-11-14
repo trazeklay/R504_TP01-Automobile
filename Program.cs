@@ -5,9 +5,11 @@ using R504_TP01_Automobile.Factories;
 Console.WriteLine("Please select the type of vehicle factory:");
 Console.WriteLine("1. Electric Vehicle Factory");
 Console.WriteLine("2. Essence Vehicle Factory");
+
 string factoryChoice = Console.ReadLine();
 
-IFabriqueVehicule factory = null;
+IFabriqueVehicule factory;
+
 switch (factoryChoice)
 {
     case "1":
@@ -24,6 +26,7 @@ switch (factoryChoice)
 Console.WriteLine("Please select the type of vehicle:");
 Console.WriteLine("1. Automobile");
 Console.WriteLine("2. Scooter");
+
 string vehicleChoice = Console.ReadLine();
 
 switch (vehicleChoice)
