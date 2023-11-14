@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace R504_TP01_Automobile.Core.Scooter
 {
-    public abstract class Scooter
+    public class ScooterEssence : IScooter
     {
-
+        public void AfficherCaracteristiques()
+        {
+            Console.WriteLine("Scooter essence créé.");
+        }
     }
 }

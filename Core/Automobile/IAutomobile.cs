@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace R504_TP01_Automobile.Core.Car
+namespace R504_TP01_Automobile.Core.Automobile
 {
-    public class PetrolCar : Car
-    {   
+    public interface IAutomobile
+    {
+        void AfficherCaracteristiques();
     }
 }

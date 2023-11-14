@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace R504_TP01_Automobile.Core.Scooter
 {
-    public class PetrolScooter : Scooter
+    public class ScooterElectricite : IScooter
     {
+        public void AfficherCaracteristiques()
+        {
+            Console.WriteLine("Scooter électrique créé.");
+        }
     }
 }

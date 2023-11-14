@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace R504_TP01_Automobile.Core.Scooter
 {
-    public class ElectricScooter : Scooter
+    public interface IScooter
     {
+        void AfficherCaracteristiques();
     }
 }
